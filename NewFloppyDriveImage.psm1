@@ -1,4 +1,4 @@
-Function New-FloppyDriveImage {
+Function New-FloppyDiskImage {
   [CmdletBinding()]
   Param (
     [Parameter(Mandatory=$True, Position=0)]
@@ -17,4 +17,4 @@ Function New-FloppyDriveImage {
   [System.IO.File]::WriteAllBytes($Path, $floppy)
 }
 
-Export-ModuleMember -Function New-FloppyDriveImage
+Export-ModuleMember -Function New-FloppyDiskImage
