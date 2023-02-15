@@ -8,10 +8,10 @@ Once this is complete, restart all instances of PowerShell and the module should
 Parameters
 
 -Path
-    Type:   <String>
+    Type:   String
 
 -Size
-    Type:   <Int>
+    Type:   Int
     Unit:   Bytes
     
 Example
