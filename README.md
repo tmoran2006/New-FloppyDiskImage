@@ -1,4 +1,4 @@
-# New-FloppyDriveImage
+# New-FloppyDiskImage
 This is a PowerShell module for creating floppy disk images
 
 You will need to create a folder with the same name as the file and add it to your $PSHOME directory.
